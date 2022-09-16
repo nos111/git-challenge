@@ -1,0 +1,78 @@
+--------------------- command --------------------- 
+git diff master
+
+--------------------- expected output --------------------- 
+diff --git a/doc/create-repo.md b/doc/create-repo.md
+index 638245a..6ceaca7 100644
+--- a/doc/create-repo.md
++++ b/doc/create-repo.md
+@@ -1,4 +1,4 @@
+-# Create a Git repository
++#Create a Git repository^M
+ As our new Bitbucket space station administrator, you need to be organized. When you make files for your space station, you’ll want to keep them in one place and shareable with teammates, no matter where 
+they are in the universe. With Bitbucket, that means adding everything to a repository. Let’s create one!
+
+ Some fun facts about repositories
+diff --git a/doc/start.md b/doc/start.md
+index 4c6d924..0359793 100644
+--- a/doc/start.md
++++ b/doc/start.md
+@@ -1,9 +1,9 @@
+-## Git basics
++##Git basics^M
+ Git is a free and open-source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally. This makes the initial clone of the repository slower, but subsequent operations such as commit, blame, diff, merge, and log dramatically faster.   
+
+ Git also has excellent support for branching, merging, and rewriting repository history, which has led to many innovative and powerful workflows and tools. Pull requests are one such popular tool that allows teams to collaborate on Git branches and efficiently review each other's code. Git is the most widely used version control system in the world today and is considered the modern standard for software d
+evelopment.
+ 
+-## How Git works
++##How Git works^M
+ Here is a basic overview of how Git works:
+ 
+ Create a "repository" (project) with a git hosting tool (like Bitbucket)
+diff --git a/solution.txt b/solution.txt
+index e69de29..3b195a2 100644
+--- a/solution.txt
++++ b/solution.txt
+@@ -0,0 +1,4 @@
++--------------------- command --------------------- ^M
++git diff master^M
++^M
++--------------------- expected output --------------------- ^M
+diff --git a/src/armstrong.py b/src/armstrong.py
+index fb931a0..52d58fc 100644
+--- a/src/armstrong.py
++++ b/src/armstrong.py
+@@ -9,12 +9,12 @@ sum = 0
+ # find the sum of the cube of each digit
+ temp = num
+ while temp > 0:
+-   digit = temp % 10
++   digit = temp % 15^M
+    sum += digit ** 3
+    temp //= 10
+ 
+ # display the result
+ if num == sum:
+-   print(num,"is an Armstrong number")
++   print(num,"is an Armstrong number as I can see")^M
+ else:
+    print(num,"is not an Armstrong number")
+\ No newline at end of file
+diff --git a/src/hello.py b/src/hello.py
+index 6909e9a..6c38424 100644
+--- a/src/hello.py
++++ b/src/hello.py
+@@ -5,5 +5,9 @@ def print_hello():
+ def print_welcome():
+     print("Welcome to the git challenges")
+ 
++def print_bye():^M
++    print("Bye challenge 01")^M
++^M
+ print_hello()
+-print_welcome()
+\ No newline at end of file
++print_welcome()^M
++print_bye()
+\ No newline at end of file
