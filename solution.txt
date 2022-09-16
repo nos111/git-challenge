@@ -1,47 +1,44 @@
 ---------------------- Command ----------------------
+git status
 git diff
 
 
 ---------------------- Expected output ----------------------
-diff --git a/README.md b/README.md
-index dea65bf..1aa092b 100644
---- a/README.md
-+++ b/README.md
-@@ -1,5 +1,12 @@
- # Challenge
--You can find the text for this challenge in challenge.txt
-+## Goal: Find the changes you have applied locally without commiting.^M
-+^M
-+## Background story: ^M
-+You were working late yesterday and left the office in a hurry.^M
-+The changes you made were everywhere and today you would like to reevaluate what you did to see if they are still relevant.^M
-+^M
-+** How can you find the changes you have made since you didn't commit? ** ^M
-+^M
-
- # Solution
- The solution is available under solution.txt
-diff --git a/challenge.txt b/challenge.txt
-index e69de29..787f237 100644
---- a/challenge.txt
-+++ b/challenge.txt
-@@ -0,0 +1,7 @@
-+Goal: Find the changes you have applied locally without commiting.^M
-+^M
-+Backstory: ^M
-+You were working late yesterday and left the office in a hurry.^M
-+The changes you made were everywhere and today you would like to reevaluate what you did to see if they are still relevant.^M
-+^M
-+How can you find the changes you have made since you didn't commit?^M
 diff --git a/src/armstrong.py b/src/armstrong.py
-index fb931a0..04ca096 100644
+index fb931a0..52d58fc 100644
 --- a/src/armstrong.py
 +++ b/src/armstrong.py
-@@ -16,5 +16,3 @@ while temp > 0:
+@@ -9,12 +9,12 @@ sum = 0
+ # find the sum of the cube of each digit
+ temp = num
+ while temp > 0:
+-   digit = temp % 10
++   digit = temp % 15^M
+    sum += digit ** 3
+    temp //= 10
+
  # display the result
  if num == sum:
-    print(num,"is an Armstrong number")
--else:
--   print(num,"is not an Armstrong number")
+-   print(num,"is an Armstrong number")
++   print(num,"is an Armstrong number as I can see")^M
+ else:
+    print(num,"is not an Armstrong number")
+\ No newline at end of file
+diff --git a/src/hello.py b/src/hello.py
+index 6909e9a..6c38424 100644
+--- a/src/hello.py
++++ b/src/hello.py
+@@ -5,5 +5,9 @@ def print_hello():
+ def print_welcome():
+     print("Welcome to the git challenges")
+ 
++def print_bye():^M
++    print("Bye challenge 01")^M
++^M
+ print_hello()
+-print_welcome()
+\ No newline at end of file
++print_welcome()^M
++print_bye()
 \ No newline at end of file
 (END)
