@@ -1,4 +1,4 @@
-#Create a Git repository
+# Create a Git repository
 As our new Bitbucket space station administrator, you need to be organized. When you make files for your space station, you’ll want to keep them in one place and shareable with teammates, no matter where they are in the universe. With Bitbucket, that means adding everything to a repository. Let’s create one!
 
 Some fun facts about repositories
