@@ -1,0 +1,7 @@
+add the following function the calculator.py:
+def power(x):
+    return x * x
+git add src/calculator.py
+git commit -m "updated calculator"
+git push -u origin challenge05
+git pull challenge05
