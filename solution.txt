@@ -1,0 +1,5 @@
+git add src/
+git commit -m "removed function by mistake"
+git reset --soft HEAD~1     #this will only remove the commit without restoring the old code version
+git commit -m "practicing commit removal"
+git reset --hard HEAD~1     #remove the commit and restore the older code version.
