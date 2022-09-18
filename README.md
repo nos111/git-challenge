@@ -19,10 +19,10 @@ Each branch includes the challenge text and the solution.
 # Setup
 
 1. Fork this repository.
-2. Download the zip file called "Local content"
-3. Unzip the content (The content is a copy of this repo with some modification needed for the challenges)
-4. Change the upstream inside the zip to your fork URL.
-git remote set-url origin YOUR_fork.git.url/here
+2. git clone <your forked URL here>
+3. run the following commands:
+4. chmod +x setup.sh
+5. ./setup.sh
 
 # Video
 Below you can find a youtube video explaining the setup and the solution for the challenges.
