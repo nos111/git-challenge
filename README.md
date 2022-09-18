@@ -5,7 +5,8 @@ How can we merge an older commit content with the current head of this branch?
 You task for this challenge is to revert the changes made to all the .py files in this branch WITHOUT 
 LOSING THE CHANGES that were made to the solution.txt, challenge.txt, README.md
 
-
+Don't forget to undo your work before moving to the next challenge by running:
+git checkout .
 
 # Solution 
 The solution is available under solution.txt
