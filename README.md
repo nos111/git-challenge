@@ -1,6 +1,7 @@
 # Challenge
 In this challenge you will delete the "divide" function from the calculator.py, add the calculator.py file and commit it.
-Afterwards, You should remove this commit without removing the recommit and remove the work and the commit.
+Afterwards, You should remove this commit without removing the work.
+Recommit and remove the work and the commit.
 
 ### Your task:
 - delete the "divide" function from the calculator.py
