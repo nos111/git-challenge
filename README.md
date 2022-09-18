@@ -4,6 +4,9 @@ Afterwards you are going to commit the whole src/ folder. However, not all the c
 
 **How can you remove a file that you have commited from the commit?**
 
+Don't forget to remove this commit with its work once you are done by running the command:
+git reset --hard HEAD~1
+
 # Solution 
 The solution is available under solution.txt
 
