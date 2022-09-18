@@ -1,0 +1,14 @@
+--------------- command --------------- 
+git add src/
+git commit -m "updated armstrong.py"
+git commit --amend
+write: "also updated hello.py"
+hit ctrl + o
+hit ctrl + x
+
+--------------- expected output ---------------
+run: git log
+You should the following message for your commit:
+
+    updated armstrong.py
+    also updated hellp.py
