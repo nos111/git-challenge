@@ -9,7 +9,8 @@ def power(x):
     return x * x
 - Add and commit the calculator file.
 - Try to push to challenge05
-- run git pull -u origin challenge05
+- git push -u origin challenge05
+- run git pull origin challenge05
 - fix the conflicts and push to the remote.
 
 # Solution 
