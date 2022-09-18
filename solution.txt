@@ -1,7 +1,7 @@
 run:
 git log
 
-Find a commit that mentions and update to the calculator.
+Find a commit that mentions an update to the calculator.
 Take that commit hash before that update and run:
 
 git checkout <commit hash before update to calculator> 
