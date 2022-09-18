@@ -2,17 +2,8 @@ run:
 git log
 
 Find the commit that updated the .py files.
-Revert to the comit before that update.:
-git checkout <hash of that commit>
+Take the hash from that commit and use it in this command:
 
-Make a new branch with the content:
-git branch temp_challlenge08 
+git checkout <commit hash> path/to/files
 
-Merge the content from branch challenge08 with temp_challlenge08:
-git checkout temp_challlenge08
-git merge --ff-only challenge08
-
-Merge temp_challlenge08 with challenge08:
-git checkout challlenge08
-git merge --ff-only temp_challlenge08
-
+git checkout 92cfb3d9 src/
