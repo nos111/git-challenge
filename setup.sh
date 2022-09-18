@@ -8,5 +8,9 @@ git checkout challenge01
 git checkout setup src/
 git restore --staged src/
 
+#setup challenge05
+git checkout challenge05
+git reset --hard HEAD~1
+
 #return to master branch
 git checkout master
