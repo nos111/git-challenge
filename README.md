@@ -25,6 +25,7 @@ Each branch includes the challenge text and the solution.
 5. ./setup.sh
 
 # Video
-Below you can find a youtube video explaining the setup and the solution for the challenges.
+https://www.youtube.com/watch?v=nnqKvnnBSuI
+
 
 
