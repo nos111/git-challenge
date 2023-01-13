@@ -1,5 +1,7 @@
 ### Welcome to the git challenge, A series of challenges designed to help you learn git and improve your git skills.
 
+IMPORTANT: WHEN YOU FORK DON"T SELECT "Copy only main branch". OTHERWISE YOU WON"T GET THE BRANCHES OF THE CHALLENGES.
+
 # Challenges
 The challenges cover the following topics:
 1. Find local changes.
