@@ -11,7 +11,7 @@ The challenges cover the following topics:
 7. Revert to older commits.
 8. Revert specific files to older commits.
 9. Share the credit of the commit with a cooperator.
-10. Design the next chalenge (Community giveback)
+10. Design the next challenge (Community giveback)
 
 Each challenge is located on its own branch.
 Each branch includes the challenge text and the solution.
