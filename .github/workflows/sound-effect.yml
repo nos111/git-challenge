@@ -1,0 +1,16 @@
+name: Sound Effect
+on:
+  pull_request:
+    types: [closed]
+jobs:
+  play-sound:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install pygame
+        run: pip install pygame
+      - name: Play sound effect
+        run: python play_sound.py
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
